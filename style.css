@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+
+iframe {
+  border: none;
+  outline: none;
+}
+
+.embed-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: red;
+}
+
+.embed-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-wrapper--16-9 {
+  padding-bottom: 56.25%;
+}
+
+.embed-wrapper--4-3 {
+  padding-bottom: 75%;
+}
